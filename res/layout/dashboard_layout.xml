@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <com.roly.GiveMeMyMoney2.utils.DashboardLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/bottom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        >
+
+        <Button
+            android:id="@+id/resume"
+            style="@style/DashboardButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/resume"
+            android:text="@string/MenuResume" />
+
+        <Button
+            android:id="@+id/add"
+            style="@style/DashboardButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/add"
+            android:text="@string/MenuAdd" />
+
+        <Button
+            android:id="@+id/toanother"
+            style="@style/DashboardButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/toothers"
+            android:text="@string/MenuToOther" />
+
+        <Button
+            android:id="@+id/tome"
+            style="@style/DashboardButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/tome"
+            android:text="@string/MenuToMe" />
+    </com.roly.GiveMeMyMoney2.utils.DashboardLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:paddingTop="20dp" >
+
+        <TextView
+            android:id="@+id/expression"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="@string/MenuExpression"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <com.google.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            ads:adSize="BANNER"
+            ads:adUnitId="a14b3caf9addaea"
+            ads:loadAdOnCreate="true"
+            ads:testDevices="TEST_EMULATOR" />
+        <!--
+             <com.mobfox.sdk.MobFoxView
+            android:id="@+id/mobFoxView"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            publisherId="ed9d29ba0373109c0ba63a4020cf97eb" />
+        -->
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Give Me My Money</string>
+    <string name="type_number">numberDecimal</string>
+    <string name="MenuExpression">Short reckonings make long friends</string>
+    <string name="MenuResume">Summary</string>
+    <string name="MenuAdd">Add a loan</string>
+    <string name="MenuToOther">What I owe</string>
+    <string name="MenuToMe">What I am owed</string>
+    <string name="MenuExit">Exit</string>
+    
+    <string name="AddToMe">I have lent to...</string>
+    <string name="AddToOthers">I owe...</string>
+    <string name="AddName">Name:</string>
+    <string name="AddMoney">Money</string>
+    <string name="AddObject">Something</string>
+    <string name="AddHowMany">How many:</string>
+    <string name="AddWhat">What:</string>
+    <string name="AddConfirm">Add</string>
+    <string name="AddReturn">Return</string>
+    <string name="AddRegistered">Registered</string>
+    <string name="AddLimit">Deadline: </string>
+    <string name="FillFormToast">You need to fill the form before continue.</string>
+   
+    <string name="Loans">loans</string>
+    <string name="Total">Total</string>
+    
+    <string name="ToModify">Click on a loan to modify.</string>
+    <string name="ToReturn">Return</string>
+    <string name="ToQuestion">Paid back ?</string>
+    <string name="ToYes">Yes!</string>
+    <string name="ToNo">No.</string>
+    <string name="ToPart">In part:</string>
+    <string name="ToOk">Ok</string>
+
+    <string name="NothingToShow">No Loans for moment.</string>
+    
+    <string name="ResumeToMe"> owes you </string>
+    <string name="ResumeToOther"> lent me </string>
+    <string name="ResumeNothing">you currently have no loan.</string>
+    <string name="ResumeExpiredLoans">Limit date expired</string>
+</resources>

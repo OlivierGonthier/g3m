@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Give Me My Money</string>
+    <string name="type_number">numberDecimal</string>
+    <string name="MenuExpression">Les bons comptes font les bons amis!</string>
+    <string name="MenuResume">Résumé</string>
+    <string name="MenuAdd">Ajouter un prêt</string>
+    <string name="MenuToOther">Ce que je dois</string>
+    <string name="MenuToMe">Ce qu\'on me doit</string>
+    <string name="MenuExit">Quitter</string>
+    <string name="FillFormToast">Vous devez remplir tous les champs avant de continuer.</string>
+    <string name="Loans">prêts</string>
+    <string name="Total">Total</string>
+    <string name="AddToMe">J\'ai prêté à...</string>
+    <string name="AddToOthers">Je dois à...</string>
+    <string name="AddName">Nom:</string>
+    <string name="AddMoney">De l\'argent</string>
+    <string name="AddObject">Un objet</string>
+    <string name="AddHowMany">Combien:</string>
+    <string name="AddWhat">Quoi:</string>
+    <string name="AddConfirm">Ajouter</string>
+    <string name="AddReturn">Revenir</string>
+    <string name="AddRegistered">Enregistré</string>
+    <string name="AddLimit">Date limite: </string>
+    <string name="ToModify">Cliquez sur un prêt pour le modifier</string>
+    <string name="ToReturn">Revenir</string>
+    <string name="ToQuestion">Rendu ?</string>
+    <string name="ToYes">Oui!</string>
+    <string name="ToNo">Non.</string>
+    <string name="ToPart">En partie:</string>
+    <string name="ToOk">Ok</string>
+    <string name="NothingToShow">Aucun prêt</string>
+    <string name="ResumeToMe"> vous a emprunté </string>
+    <string name="ResumeToOther"> vous a prêté </string>
+    <string name="ResumeNothing">vous n\'avez aucun prêt en cours.</string>
+    <string name="ResumeExpiredLoans">Date limite dépassée</string>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <RadioGroup
+        android:id="@+id/dialogGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/Oui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ToYes" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/en_partie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ToPart" />
+
+            <EditText
+                android:id="@+id/money_partie"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <RadioButton
+            android:id="@+id/non"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ToNo" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="20dip" >
+
+        <Button
+            android:id="@+id/dialogOk"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/ToOk" />
+    </FrameLayout>
+
+</LinearLayout>

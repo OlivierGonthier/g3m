@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="20dip" >
+
+            <RadioButton
+                android:id="@+id/newtome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/AddToMe"
+                android:textColor="#333" />
+
+            <RadioButton
+                android:id="@+id/newtoanother"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/AddToOthers"
+                android:textColor="#333" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="right"
+                android:layout_marginRight="5dp"
+                android:text="@string/AddName" />
+
+            <EditText
+                android:id="@+id/nom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="text|textPersonName"
+                android:paddingRight="10dp" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="20dip" >
+
+            <RadioButton
+                android:id="@+id/newmoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/AddMoney"
+                android:textColor="#333" />
+
+            <RadioButton
+                android:id="@+id/newobject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/AddObject"
+                android:textColor="#333" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dip" >
+
+            <TextView
+                android:id="@+id/combien"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="right"
+                android:layout_marginRight="5dp"
+                android:text="@string/AddHowMany" />
+
+            <EditText
+                android:id="@+id/value"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:paddingRight="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="20dp" >
+
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/AddLimit"
+                android:textColor="#333" />
+
+            <Button
+                android:id="@+id/AddChangeDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <Button
+                android:id="@+id/newAdd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/AddConfirm" />
+        </FrameLayout>
+    </LinearLayout>
+
+</ScrollView>
