@@ -1,7 +1,5 @@
 package com.roly.GiveMeMyMoney2;
 
-import com.google.ads.AdRequest;
-import com.google.ads.AdView;
 import com.roly.GiveMeMyMoney2.R;
 import com.roly.GiveMeMyMoney2.pret.Pret;
 
@@ -59,10 +57,6 @@ public class G3MActivity extends GDActivity{
 	       button_tome.setOnClickListener(button_listener);
 	       button_toanother.setOnClickListener(button_listener);
 	       button_add.setOnClickListener(button_listener);
-	      
-	       AdView adView = (AdView)this.findViewById(R.id.adView);
-	       adView.loadAd(new AdRequest());
-
 
 	    }
 
