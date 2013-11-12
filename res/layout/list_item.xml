@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+                android:paddingRight="?android:attr/listPreferredItemPaddingRight"
+                android:minHeight="?android:attr/listPreferredItemHeightLarge">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/contactName"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/contactName"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical|right"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/contactName"
+            android:layout_below="@id/content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/date"
+            android:gravity="bottom|right"
+            android:layout_alignParentBottom="true"
+            />
+
+</RelativeLayout>
