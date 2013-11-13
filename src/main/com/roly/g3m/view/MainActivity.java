@@ -45,8 +45,9 @@ public class MainActivity extends SherlockFragmentActivity implements ViewPager.
         tab = actionBar.newTab().setText(getString(R.string.activity_main_tab_from_me)).setTabListener(this);
         actionBar.addTab(tab);
 
-        actionBar.setLogo(R.drawable.title);
-        actionBar.setDisplayShowTitleEnabled(false);
+        actionBar.setLogo(R.drawable.icon);
+        actionBar.setDisplayShowTitleEnabled(true);
+        actionBar.setTitle(R.string.app_name);
     }
 
     @Override
