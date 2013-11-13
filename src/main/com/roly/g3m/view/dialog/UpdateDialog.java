@@ -17,7 +17,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 
-import com.roly.g3m.R;
+import com.roly.GiveMeMyMoney2.R;
 import com.roly.g3m.data.Database;
 import com.roly.g3m.data.LoanProvider;
 import com.roly.g3m.model.Loan;

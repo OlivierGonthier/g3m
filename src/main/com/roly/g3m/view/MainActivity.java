@@ -10,7 +10,7 @@ import com.googlecode.androidannotations.annotations.EActivity;
 import com.googlecode.androidannotations.annotations.OptionsItem;
 import com.googlecode.androidannotations.annotations.OptionsMenu;
 import com.googlecode.androidannotations.annotations.ViewById;
-import com.roly.g3m.R;
+import com.roly.GiveMeMyMoney2.R;
 import com.roly.g3m.view.adapter.MainPagerAdapter;
 import com.roly.g3m.view.dialog.AddDialog;
 

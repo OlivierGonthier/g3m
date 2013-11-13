@@ -1,17 +1,18 @@
 package com.roly.g3m.view.adapter;
 
+import java.util.Currency;
+import java.util.Date;
+import java.util.Locale;
+
 import android.content.Context;
 import android.database.Cursor;
 import android.support.v4.widget.SimpleCursorAdapter;
 import android.text.format.DateFormat;
 import android.view.View;
 import android.widget.TextView;
-import com.roly.g3m.R;
-import com.roly.g3m.data.Database;
 
-import java.util.Currency;
-import java.util.Date;
-import java.util.Locale;
+import com.roly.GiveMeMyMoney2.R;
+import com.roly.g3m.data.Database;
 
 public class LoanListItemAdapter extends SimpleCursorAdapter implements SimpleCursorAdapter.ViewBinder{
 

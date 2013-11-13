@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.roly.g3m"
+          package="com.roly.GiveMeMyMoney2"
           android:versionCode="17"
           android:versionName="2.0" >
 
@@ -12,7 +12,7 @@
             android:icon="@drawable/icon"
             android:label="@string/app_name"
             android:theme="@style/Theme.Base.AppCompat.Light.DarkActionBar">
-        <activity android:name=".view.MainActivity_">
+        <activity android:name="com.roly.g3m.view.MainActivity_">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -20,7 +20,7 @@
         </activity>
 
         <provider
-                android:name=".data.LoanProvider"
+                android:name="com.roly.g3m.data.LoanProvider"
                 android:enabled="true"
                 android:exported="false"
                 android:authorities="com.roly.g3m.provider"/>

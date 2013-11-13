@@ -20,7 +20,7 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.roly.g3m.R;
+import com.roly.GiveMeMyMoney2.R;
 import com.roly.g3m.data.Database;
 import com.roly.g3m.data.LoanProvider;
 import com.roly.g3m.model.Loan;
