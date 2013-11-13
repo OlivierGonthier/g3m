@@ -17,6 +17,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.roly.g3m.R;
@@ -38,17 +39,21 @@ public class AddDialog extends DialogFragment {
     private RadioGroup radioNature;
     private RadioButton radioNatureMoney;
     private RadioButton radioNatureObject;
-    private View zoneMoney;
-    private View zoneObjet;
+    private TextView textWhat;
+    private TextView textValue;
 
     void clickNewMoney() {
-        zoneObjet.setVisibility(View.GONE);
-        zoneMoney.setVisibility(View.VISIBLE);
+        editDescription.setVisibility(View.GONE);
+        textWhat.setVisibility(View.GONE);
+        editValue.setVisibility(View.VISIBLE);
+        textValue.setVisibility(View.VISIBLE);
     }
 
     void clickNewObject(){
-        zoneObjet.setVisibility(View.VISIBLE);
-        zoneMoney.setVisibility(View.GONE);
+        editDescription.setVisibility(View.VISIBLE);
+        textWhat.setVisibility(View.VISIBLE);
+        editValue.setVisibility(View.GONE);
+        textValue.setVisibility(View.GONE);
     }
 
     @Override
@@ -75,10 +80,10 @@ public class AddDialog extends DialogFragment {
     }
 
     private void initViews(View view) {
-        zoneMoney = view.findViewById(R.id.zone_money);
-        zoneObjet = view.findViewById(R.id.zone_objet);
+        textValue = (TextView) view.findViewById(R.id.combien);
+        textWhat = (TextView) view.findViewById(R.id.quoi);
         editNom = (EditText) view.findViewById(R.id.nom);
-        editValue = (EditText) view.findViewById(R.id.value);
+        editValue = (EditText) view.findViewById(R.id.valeur);
         editDescription = (EditText) view.findViewById(R.id.description);
         radioSensToMe = (RadioButton) view.findViewById(R.id.new_tome);
         radioSensFromMe = (RadioButton) view.findViewById(R.id.newtoanother);
