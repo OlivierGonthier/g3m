@@ -2,9 +2,9 @@ package com.roly.g3m.view;
 
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
 
-import com.actionbarsherlock.app.ActionBar;
-import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.googlecode.androidannotations.annotations.AfterViews;
 import com.googlecode.androidannotations.annotations.EActivity;
 import com.googlecode.androidannotations.annotations.OptionsItem;
@@ -16,7 +16,7 @@ import com.roly.g3m.view.dialog.AddDialog;
 
 @EActivity(R.layout.activity_main)
 @OptionsMenu(R.menu.main_menu)
-public class MainActivity extends SherlockFragmentActivity implements ViewPager.OnPageChangeListener, ActionBar.TabListener {
+public class MainActivity extends ActionBarActivity implements ViewPager.OnPageChangeListener, ActionBar.TabListener {
 
     private ActionBar actionBar;
 

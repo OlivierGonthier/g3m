@@ -9,6 +9,7 @@ import android.content.ContentValues;
 import android.content.DialogInterface;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,13 +17,12 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 
-import com.actionbarsherlock.app.SherlockDialogFragment;
 import com.roly.g3m.R;
 import com.roly.g3m.data.Database;
 import com.roly.g3m.data.LoanProvider;
 import com.roly.g3m.model.Loan;
 
-public class UpdateDialog extends SherlockDialogFragment{
+public class UpdateDialog extends DialogFragment{
 
     private final Loan loan;
     private CheckBox partiallyCheckbox;

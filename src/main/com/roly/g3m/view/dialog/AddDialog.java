@@ -9,6 +9,7 @@ import android.content.ContentValues;
 import android.content.DialogInterface;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -18,13 +19,12 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-import com.actionbarsherlock.app.SherlockDialogFragment;
 import com.roly.g3m.R;
 import com.roly.g3m.data.Database;
 import com.roly.g3m.data.LoanProvider;
 import com.roly.g3m.model.Loan;
 
-public class AddDialog extends SherlockDialogFragment {
+public class AddDialog extends DialogFragment {
 
     private static final String TAG = AddDialog.class.getSimpleName();
 
