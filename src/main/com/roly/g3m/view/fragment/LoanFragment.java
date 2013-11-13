@@ -28,6 +28,7 @@ public class LoanFragment extends ListFragment implements LoaderManager.LoaderCa
         super.onActivityCreated(savedInstanceState);
         adapter = new LoanListItemAdapter(getActivity(), null);
         setListAdapter(adapter);
+        setEmptyText("No loans for the moment!\n Click on the \u2295 button to add one.");
         setListShown(false);
         getLoaderManager().initLoader(0, null, this);
     }
