@@ -85,18 +85,18 @@ public class AddDialog extends DialogFragment {
         editNom = (EditText) view.findViewById(R.id.nom);
         editValue = (EditText) view.findViewById(R.id.valeur);
         editDescription = (EditText) view.findViewById(R.id.description);
-        radioSensToMe = (RadioButton) view.findViewById(R.id.new_tome);
-        radioSensFromMe = (RadioButton) view.findViewById(R.id.newtoanother);
+        radioSensToMe = (RadioButton) view.findViewById(R.id.radio_to_me);
+        radioSensFromMe = (RadioButton) view.findViewById(R.id.radio_from_me);
         radioSens = (RadioGroup) view.findViewById(R.id.sens);
         radioNature = (RadioGroup) view.findViewById(R.id.nature);
-        radioNatureMoney = (RadioButton) view.findViewById(R.id.new_money);
+        radioNatureMoney = (RadioButton) view.findViewById(R.id.radio_money);
         radioNatureMoney.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 clickNewMoney();
             }
         });
-        radioNatureObject = (RadioButton) view.findViewById(R.id.new_object);
+        radioNatureObject = (RadioButton) view.findViewById(R.id.radio_object);
         radioNatureObject.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -7,11 +7,11 @@
 
     <string name="menu_add">Add</string>
 
-    <string name="dialog_add_to_me">To me</string>
-    <string name="dialog_add_from_me">From me</string>
+    <string name="text_radio_to_me">To me</string>
+    <string name="text_radio_from_me">From me</string>
     <string name="dialog_add_nature_money">Money</string>
     <string name="dialog_add_nature_object">Something</string>
-    <string name="dialog_add_name">Name:</string>
+    <string name="text_name">Name:</string>
     <string name="dialog_add_value">Amount:</string>
     <string name="dialog_add_description">What:</string>
 
