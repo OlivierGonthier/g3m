@@ -3,9 +3,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
-                android:paddingRight="?android:attr/listPreferredItemPaddingRight"
-                android:minHeight="?android:attr/listPreferredItemHeightLarge">
+                android:paddingLeft="6dip"
+                android:paddingRight="6dip"
+                android:minHeight="70dip">
 
     <TextView
             android:layout_width="wrap_content"
